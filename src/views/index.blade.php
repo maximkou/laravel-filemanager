@@ -215,7 +215,7 @@
         label: 'move',
         multiple: true
       },
-      {
+/*      {
         name: 'resize',
         icon: 'arrows-alt',
         label: lang['menu-resize'],
@@ -226,7 +226,7 @@
         icon: 'crop',
         label: lang['menu-crop'],
         multiple: false
-      },
+      },*/
       {
         name: 'trash',
         icon: 'trash',
