@@ -118,7 +118,7 @@ class LfmPath
 
     public function pretty($item_path)
     {
-        return Container::getInstance()->makeWith(LfmItem::class, [
+        return Container::getInstance()->make(LfmItem::class, [
             'lfm' => (clone $this)->setName($this->helper->getNameFromPath($item_path)),
             'helper' => $this->helper
         ]);
